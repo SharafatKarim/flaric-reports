@@ -4,20 +4,19 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
-# st.set_page_config(page_title="Flaric Reports", page_icon=":material/thumb_up:")
 st.set_page_config(
     page_title="Flaric Reports",
     page_icon="🗜️",
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
-    }
+        "Get Help": "https://t.me/SharafatKarim",
+        "Report a bug": "https://github.com/SharafatKarim/flaric-reports/issues",
+        "About": "App is made with love by Rising Flare community. Source code is available in [GitHub](https://github.com/SharafatKarim/flaric-reports/). Feel free to contribute.",
+    },
 )
 
-st.title("Flaric Reports")
+st.title("🗜️ Flaric Reports")
 st.markdown(
     "> **Rising Flare** এর অভিযোগ ও পরামর্শ কেন্দ্র। আপনার নাম বা আইডি বা কোনো তথ্যই আমাদের কাছে জমা থাকার সুযোগও নেই। পাশাপাশি আপনার প্রদত্ত তথ্যও গোপন থাকবে।"
 )
